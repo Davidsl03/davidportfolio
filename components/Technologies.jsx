@@ -16,15 +16,16 @@ const Technologies = () => {
   return (
     <section
         id='technologies' 
-        className="py-6"
+        className="py-20"
     >
         <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }} 
             transition={{duration: 1, ease: "easeOut"}}
+            viewport={{ once: true }}
             className='sm:text-6xl text-4xl text-center'
         >
-            Technologies I use
+            <span className='text-cyanGlow'>Technologies</span> I use
         </motion.h1>
         <div className=" pt-8 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
         {techStack.map((tech, index) => (
@@ -33,7 +34,8 @@ const Technologies = () => {
             className="flex flex-col items-center space-y-2 p-4 bg-white/10 rounded-xl shadow-lg"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: index * 0.1 }}
+            transition={{ duration: 0.8, delay: index * 0.3 }}
+            viewport={{ once: true }}
             whileHover={{ scale: 1.1 }}
           >
             <div className="text-5xl text-cyanGlow">{tech.icon}</div>

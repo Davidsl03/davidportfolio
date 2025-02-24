@@ -4,6 +4,8 @@ import React from 'react'
 import {motion} from "framer-motion"
 import RecentProjects from '@components/RecentProjects';
 import Technologies from '@components/Technologies';
+import About from '@components/About';
+import Contact from '@components/Contact';
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
             <Hero />
             <RecentProjects />
             <Technologies />
+            <About />
+            <Contact />
         </div>
         
     </main>

@@ -13,3 +13,7 @@ html {
   scrollbar-width: none;  
 }
 
+body {
+  font-family: 'Inter', sans-serif; 
+}
+
