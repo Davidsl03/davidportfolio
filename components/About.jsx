@@ -104,7 +104,7 @@ const About = () => {
             className="bg-white/10 p-4 rounded-lg shadow-md"
           >
             <h4 className="text-xl font-semibold">July 2023 - November 2023</h4>
-            <p className="text-gray-300">I Worked as a developer intern at Alpha Beta Consulting LLP where I worked closely with senior developers to integrate REST APIs efficiently </p>
+            <p className="text-gray-300">I worked as a developer intern at Alpha Beta Consulting LLP where I worked closely with senior developers to integrate REST APIs efficiently </p>
           </motion.div>
         </div>
       </div>
